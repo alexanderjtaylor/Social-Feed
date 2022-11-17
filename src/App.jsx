@@ -1,26 +1,13 @@
 import React, { useState } from 'react';
-
+import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 
 function App() {
 
-const [posts, setPosts] = useState([{}])
+  const [posts, setPosts] = useState([{Name: 'Alex', Updatepost: 'This is my post'}])
 
   return (
     <div className="App">
-      <table>
-        <thead>
-          <tr>
-            <th>Alex</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              This is my post update
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <DisplayPosts postsToFeed={posts} />
     </div>
   );
 }
