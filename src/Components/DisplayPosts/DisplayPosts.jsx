@@ -18,7 +18,7 @@ const DisplayPosts = (props) => {
                 return (
                 <tr>
                     <td>
-                    {post.Updatepost}
+                    {post.updatePost}
                     </td>
                 </tr>
                 );
