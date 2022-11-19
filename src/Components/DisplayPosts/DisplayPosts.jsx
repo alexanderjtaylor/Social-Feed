@@ -1,23 +1,16 @@
 
 const DisplayPosts = (props) => {
     return ( 
-        <table>
+        <table className="table">
             <thead>
-            {props.postsToFeed.map((post) => {
-                return (
-                <tr>
-                    <td>
-                    {post.Name}
-                    </td>
-                </tr>
-                );
-            })}
+        
             </thead>
             <tbody>
             {props.postsToFeed.map((post) => {
                 return (
                 <tr>
                     <td>
+                    {post.Name} <br></br>
                     {post.updatePost}
                     </td>
                 </tr>

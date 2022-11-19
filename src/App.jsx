@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import CreatePost from './Components/Posts/CreatePost';
+import './App.css';
 
 function App() {
 
@@ -12,9 +13,17 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <DisplayPosts postsToFeed={posts} />
-      <CreatePost createNewPostProp={createNewPost} />
+    <div className="container-fluid">
+      <div className='row'>
+        <div className='col-md-8'>
+          <div className='border-box'>
+            <CreatePost createNewPostProp={createNewPost} />
+          </div>
+          <div className='border-box'>
+            <DisplayPosts postsToFeed={posts} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
