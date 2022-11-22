@@ -5,3 +5,12 @@
     margin: 1em;
     padding: 1em;
 }
+
+.post_wrapper{
+    margin-top: 25px;
+    list-style: none;
+}
+
+.btn-primary{
+    margin-top: 1em;
+}

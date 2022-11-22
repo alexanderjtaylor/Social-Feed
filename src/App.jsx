@@ -3,6 +3,7 @@ import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import CreatePost from './Components/Posts/CreatePost';
 import './App.css';
 
+
 function App() {
 
   const [posts, setPosts] = useState([{Name: 'Alex', updatePost: 'This is my post'}])

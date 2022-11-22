@@ -1,23 +1,12 @@
+import React from 'react';
+import Post from '../Posts/Post';
+
 
 const DisplayPosts = (props) => {
     return ( 
-        <table className="table">
-            <thead>
-        
-            </thead>
-            <tbody>
-            {props.postsToFeed.map((post) => {
-                return (
-                <tr>
-                    <td>
-                    {post.Name} <br></br>
-                    {post.updatePost}
-                    </td>
-                </tr>
-                );
-            })}
-            </tbody>
-        </table>
+        <div>
+            {props.postsToFeed.map(post => <li className="post_wrapper" key={post.id}><Post post={post}/></li>)}
+        </div>
     );
 }
  
