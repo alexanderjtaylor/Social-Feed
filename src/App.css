@@ -4,13 +4,74 @@
     border-color: black;
     margin: 1em;
     padding: 1em;
+    border-radius: 25px 25px;
 }
 
-.post_wrapper{
-    margin-top: 25px;
+.row {
+    justify-content: center;
+}
+
+.form-control {
+    font-size: large;
+}
+
+.form-label {
+    font-size: large;
+}
+
+.post_wrapper {
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
     list-style: none;
+    padding: 1em;
+    border-bottom: 2px solid darkgray;
 }
 
-.btn-primary{
+.postname {
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.postbody {
+    font-size: large;
+}
+
+.btn-primary {
     margin-top: 1em;
+    margin-left: 800px;
+}
+
+.like-or-dislike-btn {
+    margin-top: 40px;
+    margin-left: 700px;
+    padding: 5px;
+}
+
+.btn-liked {
+    background-color: green;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btn-like {
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btn-disliked {
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.nav {
+    margin: 10em;
+    margin-top: .5em;
+    padding: .5em;
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
 import CreatePost from './Components/Posts/CreatePost';
 import './App.css';
+import NavBar from './Components/DisplayPosts/NavBar';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div className="container-fluid">
+      <NavBar/>
       <div className='row'>
         <div className='col-md-8'>
           <div className='border-box'>

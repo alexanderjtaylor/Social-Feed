@@ -16,7 +16,7 @@ const CreatePost = (props) => {
     }
 
     return ( 
-        <form onSubmit={handleSubmit}>
+        <form className='form-submit' onSubmit={handleSubmit}>
             <div className='form-group'>
                 <label className='form-label'>Name</label>
                 <input type='text' class='form-control' value={Name} onChange={(event) => setName(event.target.value)} />

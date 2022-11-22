@@ -1,7 +1,6 @@
 import React from 'react';
 import Post from '../Posts/Post';
 
-
 const DisplayPosts = (props) => {
     return ( 
         <div>
